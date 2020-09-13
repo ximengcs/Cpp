@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\State">
+      <UniqueIdentifier>{471504f0-f6de-46a7-b683-bc6ff130c105}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\environment">
+      <UniqueIdentifier>{e0307889-b36d-4d93-8b6e-b5d98ddbcaa9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Entry">
+      <UniqueIdentifier>{1f4b9dcb-c718-41f9-8f82-720fbce01ec3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\action">
+      <UniqueIdentifier>{3112b1ca-5ce3-46be-8617-694cf53a6adf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\agent">
+      <UniqueIdentifier>{0df1b148-abce-49f5-b825-10fc15022562}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\table">
+      <UniqueIdentifier>{8dabbe80-247b-42ce-8dbb-9e082b50c571}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\view">
+      <UniqueIdentifier>{9cc2fe8c-1585-4b32-8f51-3ae86cb49e43}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="State.cpp">
+      <Filter>源文件\State</Filter>
+    </ClCompile>
+    <ClCompile Include="Car.cpp">
+      <Filter>源文件\Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="Agent.cpp">
+      <Filter>源文件\agent</Filter>
+    </ClCompile>
+    <ClCompile Include="Action.cpp">
+      <Filter>源文件\action</Filter>
+    </ClCompile>
+    <ClCompile Include="Maneger_Car.cpp">
+      <Filter>源文件\Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="Q_Table.cpp">
+      <Filter>源文件\table</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment.cpp">
+      <Filter>源文件\environment</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>源文件\view</Filter>
+    </ClCompile>
+    <ClCompile Include="Reward.cpp">
+      <Filter>源文件\Entry</Filter>
+    </ClCompile>
+    <ClCompile Include="tool.cpp">
+      <Filter>源文件\view</Filter>
+    </ClCompile>
+    <ClCompile Include="trafficlieght.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="State.h">
+      <Filter>源文件\State</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment.h">
+      <Filter>源文件\environment</Filter>
+    </ClInclude>
+    <ClInclude Include="Car.h">
+      <Filter>源文件\Entry</Filter>
+    </ClInclude>
+    <ClInclude Include="action.h">
+      <Filter>源文件\action</Filter>
+    </ClInclude>
+    <ClInclude Include="agent.h">
+      <Filter>源文件\agent</Filter>
+    </ClInclude>
+    <ClInclude Include="Q_Table.h">
+      <Filter>源文件\table</Filter>
+    </ClInclude>
+    <ClInclude Include="Reward.h">
+      <Filter>源文件\Entry</Filter>
+    </ClInclude>
+    <ClInclude Include="tool.h">
+      <Filter>源文件\view</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>源文件\view</Filter>
+    </ClInclude>
+    <ClInclude Include="Maneger_Car.h">
+      <Filter>源文件\Entry</Filter>
+    </ClInclude>
+    <ClInclude Include="Data.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Para.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

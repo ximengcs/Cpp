@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "交通灯", "交通灯\交通灯.vcxproj", "{86286B05-8416-4512-A93A-CF84B4793686}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{86286B05-8416-4512-A93A-CF84B4793686}.Debug|x64.ActiveCfg = Debug|x64
+		{86286B05-8416-4512-A93A-CF84B4793686}.Debug|x64.Build.0 = Debug|x64
+		{86286B05-8416-4512-A93A-CF84B4793686}.Debug|x86.ActiveCfg = Debug|Win32
+		{86286B05-8416-4512-A93A-CF84B4793686}.Debug|x86.Build.0 = Debug|Win32
+		{86286B05-8416-4512-A93A-CF84B4793686}.Release|x64.ActiveCfg = Release|x64
+		{86286B05-8416-4512-A93A-CF84B4793686}.Release|x64.Build.0 = Release|x64
+		{86286B05-8416-4512-A93A-CF84B4793686}.Release|x86.ActiveCfg = Release|Win32
+		{86286B05-8416-4512-A93A-CF84B4793686}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2876F3D-7208-4C57-81DF-9D95D3BB2F85}
+	EndGlobalSection
+EndGlobal
